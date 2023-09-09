@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNGX - Personal Information</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <div class="name">
+          <span>Slack Name:</span>
+          <h1 class="username" data-testid="slackUserName">Ebenezer Osa-Erhabor</h1>
+        </div>
+       <main class="main">
+         <img
+          src="./assets/slack-profile.png"
+          alt="Ebenezer Osa-Erhabor"
+          data-testid="slackDisplayImage"
+          class="slack-image"
+        />
+        <div class="main">
+          <p class="week" data-testid="currentDayOfTheWeek"></p>
+          <p class="utc" data-testid="currentUTCTime"></p>
+          <p class="track" data-testid="myTrack">
+            My Track: Frontend development
+          </p>
+            <a
+              href="https://github.com/Tk-brainCodes/HNGX-Task-1"
+              target="_blank"
+              data-testid="githubURL"
+              >github.com/Tk-brainCodes/HNGX-Task-1</a
+            >
+        </div>
+      </div>
+       </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
